@@ -1,4 +1,4 @@
-# require 'pry'
+require 'pry'
 
 class String
 
@@ -11,6 +11,7 @@ class String
   end
 
   def exclamation?
+    binding.pry
     self.end_with?("!")
   end
 
